@@ -14,12 +14,12 @@ class Header extends Component {
             </NavbarBrand>
           
           <Nav>
-            <NavItem className="link-cursor">
-              <Link to="/">Home</Link>
-            </NavItem>
-            <NavItem className="link-cursor">
-              <Link to="/add">Add New Employee</Link>
-            </NavItem>
+            <div className="link-cursor nav-link">
+              <Link className="link-text" to="/">Home</Link>
+            </div>
+            <div className="link-cursor nav-link">
+              <Link className="link-text" to="/add">Add New Employee</Link>
+            </div>
           </Nav>
         </Navbar>
       </div>

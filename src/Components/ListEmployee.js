@@ -40,7 +40,7 @@ class ListEmployee extends Component {
 
   deleteEmployee(empid) {
     this.employeesService.deleteEmployee(empid);
-    // this.getEmployeeList();
+    this.getEmployeeList();
   }
 
   render() {

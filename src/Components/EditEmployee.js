@@ -106,7 +106,7 @@ class EditEmployee extends Component {
           </label> <br />
           <input
             type="submit"
-            value="Save changes"
+            value="Update"
             className="btn btn-primary"
           />
         </form>

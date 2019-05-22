@@ -17,6 +17,22 @@ code {
   cursor: pointer; 
 }
 
+.nav-link {
+  display: inline-block;
+  margin: 1em;
+  border: 2px solid #fff;
+  padding: .5em;
+}
+.nav-link .link-text {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: #d0dce8;
+}
+
 .navbar {
   background: #2c6c9e;
   height: 10vh;
